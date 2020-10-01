@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("pic.png");
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  position: relative;
+  height: auto;
+  font-size: 16px;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  padding-top: 250px;
+}
+
+.custom {
+  width: 190px;
+}
+
+.paragraph{
+  padding-top: 16px;
+}
+
+.social-icon{
+  margin: 10px 20px;
+  position: relative;
+}
+
+#footer {
+  padding: 23% 35%;
+  text-align: center;
+}
