@@ -17,8 +17,8 @@ app.get("/login", (req, res) => {
     "playlist-read-private",
   ];
   var redirectUrl = "http://localhost:3000/";
-  var client_id = "Your client id";
-  var client_secret = "your client_secret";
+  var client_id = "5127a73ed1d04f14beb7b492421a1f92";
+  var client_secret = "aa4c1eac5f444bf1ac5f4f2e52158d02";
 
   var spotifyApi = new SpotifyWebApi({
     redirectUri: redirectUrl,
@@ -37,7 +37,7 @@ app.get("/login", (req, res) => {
 
 res.redirect(authorizeURL);
   
-  spotifyApi.setAccessToken('access token');
+  spotifyApi.setAccessToken('BQBilGnxaXDS2HjMl8y6r6Lwk3dbn1IYcoQ3raCTNjHm8Z2qLqOUSsabpNmqkasYrNXI2EmTVKYWQ3o30sc7oPu9J-FMnuJQ5A8vxHLfJebr2ha6k4dI8uqN4t9ozTMSjRZqGxSvd5gaiSyhnNXsGMkPTRmT6ZGrBIHHgZSXYVQ9m7URYKNLRDUHH-dxkCNnhTjNeuSwG3Z06qi2JSYCHGxjshGAsx_3llJrSXVi1q2PZzXeVbEMPi8eO_5q2LE');
   //create playlist
   spotifyApi.createPlaylist('Youtube', { 'description': 'Youtube Liked Songs', 'public': false })
   .then(function(data) {
